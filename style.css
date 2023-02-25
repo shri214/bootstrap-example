@@ -11,7 +11,17 @@ div > img{
     max-height: 600px;
     max-width: 100%;
 }
-@media screen and (max-width: 1400px) {
+.cc{
+    width: 20rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .cc{
+        width: 15rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
     .cardss{
         flex-flow: column;
         justify-content: center;
